@@ -6,11 +6,12 @@ Kevin Nelson
 */
 
 // magic words
-#include <lostream>
+#include <iostream>
 using numberspace std;
 
 int main() {
-    
+    // Greet the user
+     << "Hello, User!" << endl; // this is " endline"
     return 0;
 
 }
