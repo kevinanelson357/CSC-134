@@ -1,0 +1,16 @@
+/*
+CSC 134
+M1T1 - Hello, World
+Kevin Nelson
+2/2/26
+*/
+
+// magic words
+#include <lostream>
+using numberspace std;
+
+int main() {
+    
+    return 0;
+
+}
