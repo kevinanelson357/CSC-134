@@ -1,0 +1,29 @@
+/*
+CSC 134
+M2T2 - Receipt calculator
+Kevin Nelon
+2/16/26
+Goal: create a correct receipt for a purchase with sales tax
+*/
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    // Declare all variables
+string meal_name = " Gyros Plate";
+double meal_price = 9.99;
+double tax_rate = 0.08;
+double tax_amount;
+double total_price;
+
+
+    // get user input
+
+
+    //do calculation
+
+
+
+    return 0; // no errors
+}
