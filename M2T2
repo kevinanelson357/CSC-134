@@ -12,17 +12,22 @@ using namespace std;
 int main(){
     // Declare all variables
 string meal_name = " Gyros Plate";
+int num_meals;
 double meal_price = 9.99;
 double tax_rate = 0.08;
-double tax_amount;
+double tax_amount = meal_price * tax_rate;
 double total_price;
 
 
     // get user input
-
+cout << " Welcome to Therma's Place" << endl;
+cout << "Today's special: " << meal_name <<endl;
+cout << endl;
+cout << " How many would you like? ";
+cin >> num_meals
 
     //do calculation
-
+sub_total = meal_price * num_meals
 
 
     return 0; // no errors
