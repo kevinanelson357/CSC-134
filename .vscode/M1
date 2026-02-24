@@ -7,18 +7,18 @@ Kevin Nelson
 using namespace std;
 int main(){
     // This program will simulate an apple orchard.
-    // The owne's name
     string name = " Nelly"
-
-    // calculate the total price of the apples
-    // TODO
+    int apples = 100
+    double pricePerApple = 0.25
+    double totalPrice = apples * pricePerapple
 
     // print all the information about the orchard
-    // TODO
     cout << " Welcome to " < name;
     cout << " 's apple orchaed!" << endl;
     cout << " We've got " << apples;
     cout << " apples currently in stock." << endl;
     cout << " Apples cost $";
-    cout << pricePerApple << " each"
+    cout << pricePerApple << " each" endl;
+    cout << "If you'd like them all, that will be $" <<
+    totalPrice << endl;
 }
