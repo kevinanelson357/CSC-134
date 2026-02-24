@@ -16,5 +16,9 @@ int main(){
     // print all the information about the orchard
     // TODO
     cout << " Welcome to " < name;
-    cout ,, " 's apple orchaed!" << endl;
+    cout << " 's apple orchaed!" << endl;
+    cout << " We've got " << apples;
+    cout << " apples currently in stock." << endl;
+    cout << " Apples cost $";
+    cout << pricePerApple << " each"
 }
