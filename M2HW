@@ -1,0 +1,30 @@
+/* CSC 134
+M2HW1 - Bronze
+Kevin Nelson
+2 March 2026 */
+
+// Time to do some homework let's start with question 1
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main(){
+    cout << "Question 1" << endl;
+// We need to greet ask about withdrawal or deposit and state final balance
+double deposit, withdrawal, name, final_balance;
+const double Account_Number = 8675309;
+const double Starting_Balance = 2,875.23
+
+// Make sure we have correct decimals
+cout << setprecision(2) << fixed << showpoint
+
+// Let's make this thing interactive
+cout << " Welcome to Moneyholder Bank. Please enter your name" << endl;
+cout << " Name: ";
+cin >> name;
+cout << " Hello " << name;
+cout << " your account: " << Account_Number;
+cout << " has a balance of: $" << Starting_Balance
+
+
+}
