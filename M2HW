@@ -13,7 +13,7 @@ int main(){
 // We need to greet ask about withdrawal or deposit and state final balance
 double deposit, withdrawal, name, final_balance;
 const double Account_Number = 8675309;
-const double Starting_Balance = 2,875.23;
+const double Starting_Balance = 2875.23;
 
 // Make sure we have correct decimals
 cout << setprecision(2) << fixed << showpoint;
