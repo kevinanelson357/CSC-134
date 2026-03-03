@@ -5,6 +5,7 @@ M2LAB
 
 
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main(){
@@ -28,7 +29,7 @@ int main(){
     cin >> height;
 
     // Formula time, let's get to mathing
-    volume = lenght * width * height;
+    volume = length * width * height;
     cost = volume * Cost_Per_Cubic_Foot;
     charge = volume * Charge_Per_Cubic_Foot;
     profit = charge - cost;
