@@ -19,7 +19,7 @@ int main(){
     cout << setprecision(2) << fixed << showpoint;
 
     // User input for the crates
-    cout << "Enter the dimensions of the crate's length, width, and height in feet please:";
+    cout << "Enter the dimensions of the crate's length, width, and height in feet please:" << endl;
     cout << "length: ";
     cin >> length;
     cout << "width: ";
@@ -28,7 +28,18 @@ int main(){
     cin >> height;
 
     // Formula time, let's get to mathing
+    volume = lenght * width * height;
+    cost = volume * Cost_Per_Cubic_Foot;
+    charge = volume * Charge_Per_Cubic_Foot;
+    profit = charge - cost;
 
+    // Show them what's behind the door Monty
+    cout << "The volume of your crate is ";
+    cout << volume << " cubic feet." << endl;
+    cout << "Cost to build: $" << cost << endl;
+    cout << " Charge to customer: $" << charge << endl;
+    cout << " Net: $" << profit << endl;
+    return 0;
 
 
 }
