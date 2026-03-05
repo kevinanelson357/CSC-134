@@ -1,0 +1,10 @@
+/* CSC-134
+Kevin Nelson
+M3T2
+4-5-56 */
+
+// We're making a random number generator for a craps game
+#include <iostream>
+int main(){
+    
+}
