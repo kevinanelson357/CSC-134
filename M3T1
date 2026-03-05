@@ -9,16 +9,20 @@ using namespace std;
 
 int main(){
     // Declare variables
-    int widthOne, lengthOne;
-    int areaOne;
-    cout << "Please enter the width and height\n";
+    int widthOne, lengthOne, widthTwo, lengthTwo;
+    int areaOne, areaTwo;
+    cout << "Please enter the width and height of the first\n";
     cout << "rectangle, seperated by a space or new line" << endl;
     cin >> widthOne >> lengthOne;
 
-
+    cout << "Please enter the width and height of the second\n";
+    cout << "rectangle, seperated by a space or new line" << endl;
+    cin >> widthTwo >> lengthTwo;
     // calculations
     areaOne = widthOne * lengthOne;
+    areaTwo = widthTwo * lengthTwo;
 
     // print the areas
     cout << "Rectangle one has an area of " << areaOne << endl;
+    cout << "Rectangle two has an area of " << areaTwo << endl;
 }
