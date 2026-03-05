@@ -1,0 +1,24 @@
+/* CSC-134
+Kevin Nelson
+M3T1
+3-5-26*/
+
+// We neeed the user to enter the length and width of two rectangles and calculate area
+#include <iostream>
+using namespace std;
+
+int main(){
+    // Declare variables
+    int widthOne, lengthOne;
+    int areaOne;
+    cout << "Please enter the width and height\n";
+    cout << "rectangle, seperated by a space or new line" << endl;
+    cin >> widthOne >> lengthOne;
+
+
+    // calculations
+    areaOne = widthOne * lengthOne;
+
+    // print the areas
+    cout << "Rectangle one has an area of " << areaOne << endl;
+}
