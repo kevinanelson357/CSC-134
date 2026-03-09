@@ -5,6 +5,69 @@ M3T2
 
 // We're making a random number generator for a craps game
 #include <iostream>
-int main(){
+#include <iomanip>
+#include <cstdlib>
+#include <ctime>
+
+using namespace std;
+
+// Dice rolling function
+int rollDice() {
+    // Roll them bones
+    int die1 = 1 + rand() % 6;
+    int die2 = 1 + rand() % 6;
+    int sum = die1 + die2;
+
+    cout << "Player rolled " << die1 << " + " << die2 << " = " << sum << endl;
+    return sum;
+}
+
+// Main craps game function
+void playCreps() {
+    cout << "\n=== CRAPS GAME ===" << endl;
     
+    // Come-out roll
+    int roll = rollDice();
+    
+    // Check come-out roll results
+    if (roll == 7 || roll == 11) {
+        cout << "NATURAL! You WIN!" << endl;
+        return;
+    } else if (roll == 2 || roll == 3 || roll == 12) {
+        cout << "CRAPS! You LOSE!" << endl;
+        return;
+    }
+    
+    // Set the point
+    int point = roll;
+    cout << "Point is set to: " << point << endl;
+    
+    // Continue rolling until point or 7
+    while (true) {
+        roll = rollDice();
+        
+        if (roll == point) {
+            cout << "You rolled your POINT! You WIN!" << endl;
+            break;
+        } else if (roll == 7) {
+            cout << "SEVENS OUT! You LOSE!" << endl;
+            break;
+        }
+    }
+}
+
+int main() {
+    srand(time(0));  // Seed random number generator
+    
+    char playAgain = 'y';
+    
+    while (playAgain == 'y' || playAgain == 'Y') {
+        playCreps();
+        
+        cout << "\nPlay again? (y/n): ";
+        cin >> playAgain;
+    }
+    
+    cout << "Thanks for playing!" << endl;
+    return 0;
 }
