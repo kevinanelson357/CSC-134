@@ -29,7 +29,16 @@ int main() {
 
   if (1 == choice) {
   	cout << "You chose the gate. The rusty gate creaks loudly. You are now in a hall with two doors." << endl;
-  }
+    cout << "Do you choose the Left or Right door?" << endl;
+    cout << "Tpe 1 or 2: ";
+    char doorChoice;
+    cin >> doorChoice;
+    if (1 == choice) {
+        cout << "You have set off a trap. The flames fry you to a crisp." << endl;
+    }
+    else if (2 == choice)
+        cout << " At last the beautiful sun greets you. You have escaped." << endl;
+    }
   else if (2 == choice) {
   	cout << "You chose the well. You fall to your death." << endl;
   }
