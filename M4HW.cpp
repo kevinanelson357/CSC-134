@@ -12,8 +12,8 @@ int main() {
     cout << "Enter a number between 1 and 10: ";
     int number;
     double result;
-    result = number * 5;
     cin >> number;
+    result = number * 5;
     cout << "Times 5 equals " << result << endl;
     return 0;
 }
