@@ -20,12 +20,24 @@ int main() {
     cin >> choice;
     if (choice == 1) {
         cout << " The door opens revealing a guard. He strikes you and slams the door.\n";
+        else if (choice == 2) {
+            cout << " You leap out recklessly."
+        }
         else if (choice == 3) {
             cout << "You slowly creep down the stairs. There is a hall leading left and right.\n";
             cout << " at each end is a door. Type 1 for left or 2 for right.";
             cin >> choice;
             if (choice == 1) {
-                
+                cout << "The door opens revealing the keep's courtyard. You can run for it or sneak out.\n";
+                cout << "Type 1 to Run or 2 to Sneak.";
+                cin >> choice;
+                if (choice ==1) {
+                    cout << "You run for it. The guard give chas but you are faster. You escape into the forest.";
+                    else if (choice == 2) {
+                        cout << "You hear a laugh behind you. The guard stabs you with his spear. You are dead.";
+                    }
+                    
+                }
             }
         }
     }"
