@@ -20,8 +20,10 @@ int main() {
     cin >> choice;
     if (choice == 1) {
         cout << " The door opens revealing a guard. He strikes you and slams the door.\n";
+    }
         else if (choice == 2) {
-            cout << " You leap out recklessly."
+            cout << " You leap out recklessly. You legs snap as you hit the courtyard. \n";
+            cout << " You will now be tortured be the Mad Wizard.";
         }
         else if (choice == 3) {
             cout << "You slowly creep down the stairs. There is a hall leading left and right.\n";
@@ -40,5 +42,5 @@ int main() {
                 }
             }
         }
-    }"
+    }
 }
