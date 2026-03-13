@@ -15,5 +15,13 @@ int main() {
     cin >> number;
     result = number * 5;
     cout << "Times 5 equals " << result << endl;
+    // next let's make a multiplication of 10s for silver
+    cout << "Now we're going to multiply by 10s.\n";
+    cout << "Enter a number between 1 and 100: ";
+    cin >> number;
+    result = number * 10;
+    cout << "Times 10 equals: :" << result << endl;
     return 0;
+    // Next stop is Gold where we will multiply by 100s
+    cout << " You're a Pro! So let's multiply by 100s.\n";
 }
