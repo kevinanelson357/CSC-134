@@ -1,13 +1,17 @@
 /* For the purposes of this one we're making void functions */
 #include <iostream>
+#include <string>
 using namespace std;
 
 // declare a function
-void printAnswer(int answer);
+string formatAnswer (int answer);
+void printAnswer(string mag);
 
 int main() {
     int answer = 7;
-    printAnswer(answer);
+    string message;
+    message = formatAnswer(answer);
+    printAnswer(message);
     return 0;
 
 }
